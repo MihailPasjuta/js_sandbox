@@ -1,0 +1,20 @@
+{
+  "name": "lsn6",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && parcel build ./index.html --public-url /js_sandbox",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "email-validator": "^2.0.4",
+    "gh-pages": "^2.0.1",
+    "random-email": "^1.0.3"
+  },
+  "dependencies": {}
+}
