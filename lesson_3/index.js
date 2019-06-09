@@ -35,7 +35,7 @@ class Calculator{
 	}
 	add(num){
 		this.result+=num;
-		//return this.result;
+		return this.result;
 	}
 	sub(num){
 		this.result-=num;
