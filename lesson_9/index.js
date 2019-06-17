@@ -62,8 +62,8 @@ function makeClicks(n){
 }
 
 function waitForTime(ms){
-	return new Promise((resolve)=>{
-		setTimeout(resolve,ms*1000);
+	return new Promise((resolve,reject)=>{
+		setTimeout(reject,ms*1000);
 	});
 }
 function waitForClicks(clicks){
@@ -71,7 +71,7 @@ function waitForClicks(clicks){
 		return new Promise((resolve,reject)=>{
 			window.addEventListener('click',(event)=>{
 				k+=1;
-				if(k==clicks)resolve();
+				if(k===clicks) return resolve();
 			});
 		});
 }
@@ -85,7 +85,5 @@ function clickChallange(clicks,ms){
 	Promise.race([waitForTime(ms),waitForClicks(clicks)])
 		.then(()=>setText1('Good job, comrade.'))
 		.catch(()=>setText1('100 кликов вне очереди.'));
-	
 }
-
-clickChallange(3,5);
+clickChallange(3,3);
