@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<style>
+		.conv_div{float:right; position:absolute; margin-left:5%;margin-top:5%; margin-right:auto; width:14%; background-color:yellow; border-radius:10px}
+		.history_div{float:left; position:absolute; margin-left:30%;margin-top:5%; margin-right:auto; width:14%; background-color:Aqua; border-radius:10px}
+	</style>
+	
+</head>
+<body>
+	<div class="conv_div">
+		<center><span>Converter</span></center>
+		<select style="margin: 10%" id="select1_1">
+			<option value="GBP">GBP</option>
+			<option value="USD">USD</option>
+			<option value="EUR">EUR</option>
+		</select>
+		<select style="margin: 10%" id="select1_2">
+			<option value="GBP">GBP</option>
+			<option value="USD">USD</option>
+			<option value="EUR">EUR</option>
+		</select>
+		<center><button id="result1">Result</button></center>
+		<input type="number" style="margin: 10%; width:80%" id="input_res1"></input>
+		<center><div id="error1"></div></center>
+	</div>
+	
+	<div id="history"class="history_div">
+	<center><span>History</span></center>
+		<select style="margin: 10%" id="select2_1">
+			<option value="GBP">GBP</option>
+			<option value="USD">USD</option>
+			<option value="EUR">EUR</option>
+		</select>
+		<select style="margin: 10%" id="select2_2">
+			<option value="GBP">GBP</option>
+			<option value="USD">USD</option>
+			<option value="EUR">EUR</option>
+		</select>
+		From
+		<center><input type="date" id="start" name="trip-start"
+       value="2000-07-22"
+       min="1990-01-01" max="2019-06-20"></center><br>
+	   To
+		<center><input type="date" id="end" name="trip-start"
+       value="2018-07-22"
+       min="2018-01-01" max="2019-06-20"></center>
+		<center><button id="result2" style="margin-top:5%">Show history</button></center>
+		<center><div id="error1"></div></center>
+		
+		<center><div id="show_result2" style="margin-top: 5%">Result</div></center>
+		
+	</div>
+    <script src="index.js"></script>
+</body>
+</html>
