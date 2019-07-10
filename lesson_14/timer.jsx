@@ -3,7 +3,11 @@ import React from 'react';
 export default class Timer extends React.Component{
 constructor (props) {
     super(props)
-    this.state = {count: 0}
+    this.state = {
+		count: 0,
+		start: 0,
+		pause: 0,
+	}
   }
  
   componentWillUnmount () {
@@ -15,9 +19,15 @@ constructor (props) {
   startTimer () {
     clearInterval(this.timer)
     this.timer = setInterval(this.tick.bind(this), 1000)
+	this.setState({
+		start: 1
+	})
   }
   pauseTimer () {
     clearInterval(this.timer)
+	this.setState({
+		pause: 1
+	})
   }
   stopTimer(){
 	  clearInterval(this.timer)
@@ -35,7 +45,5 @@ constructor (props) {
     )
   }
 }
-
-
 
 
