@@ -1,0 +1,145 @@
+body{background:linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);}
+.form{
+	position: absolute;
+width: 375px;
+height: 812px;
+background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
+}
+.circle{
+ padding: "5px";
+ border-radius: 50%;
+ position: absolute;
+width: 212px;
+height: 212px;
+left: 82px;
+top: 197px;
+
+background: linear-gradient(73.12deg, #25CED1 -19.51%, #34E6E9 58.02%, #6AFCFF 138%);
+ }
+ 
+ @media (min-width: 425px) {
+	 .form{
+	position: absolute;
+width: 375px;
+height: 812px;
+margin-left:37%;
+background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
+}
+.true_circle{
+ padding: "5px";
+border-radius: 50%;
+ position: absolute;
+width: 212px;
+height: 212px;
+left: 82px;
+top: 197px;
+display: block;
+background:  linear-gradient(73.12deg, #25CED1 -19.51%, #34E6E9 58.02%, #6AFCFF 138%);;
+ }
+ .false_circle{
+ padding: "5px";
+border-radius: 50%;
+ position: absolute;
+width: 212px;
+height: 212px;
+left: 82px;
+top: 197px;
+display: none;
+background:  linear-gradient(73.12deg, #25CED1 -19.51%, #34E6E9 58.02%, #6AFCFF 138%);;
+ }
+ .vector{
+	 position: absolute;
+left: 30%;
+right: -20.83%;
+top: 20.83%;
+bottom: 20.83%;
+
+border: 2px solid #FFFFFF;
+transform: matrix(-1, 0, 0, 1, 0, 1);
+ }
+ .truename_input{
+	 position: absolute;
+
+width: "80%";
+top: 40%;
+left: 10%;
+visibility:visible;
+background: #FFFFFF;
+border-radius: 8px;
+ }
+ .falsename_input{
+	 position: absolute;
+visibility:hidden;
+ }
+  .trueusername_input{
+	 position: absolute;
+
+width: "80%";
+top: 45%;
+left: 10%;
+visibility:visible;
+background: #FFFFFF;
+border-radius: 8px;
+ }
+ .falseusername_input{
+	 position: absolute;
+visibility:hidden;
+ }
+   .truecountry_input{
+	 position: absolute;
+
+width: "80%";
+top: 50%;
+left: 10%;
+visibility:visible;
+background: #FFFFFF;
+border-radius: 8px;
+ }
+ .falsecountry_input{
+	 position: absolute;
+visibility:hidden;
+ }
+ 
+  .trueage_input{
+	 position: absolute;
+
+width: "80%";
+top: 55%;
+left: 10%;
+visibility:visible;
+background: #FFFFFF;
+border-radius: 8px;
+ }
+ .falseage_input{
+	 position: absolute;
+visibility:hidden;
+ }
+ 
+.truebtn_1{
+	 position: absolute;
+width: 48px;
+height: 48px;
+left: 164px;
+top: 650px;
+background: linear-gradient(125.58deg, #BAFB67 -5.37%, #00D23A 196.64%);
+border-radius: 50%;
+ }
+ .falsebtn_1{
+	 position: absolute;
+display: none;
+ }
+ 
+ .truebtn_2{
+	 position: absolute;
+width: 200px;
+height: 48px;
+left: 10%;
+top: 650px;
+background: linear-gradient(125.58deg, #BAFB67 -5.37%, #00D23A 196.64%);
+border-radius: 8px;
+ }
+ .falsebtn_2{
+	 position: absolute;
+display: none;
+ }
+ }
