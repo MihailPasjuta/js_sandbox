@@ -1,361 +1,145 @@
-body{
-	background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
-	margin: 0;
-  padding: 0;
-}
-
-/*Screen1*/
+body{background:linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);}
 .form{
-	background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
-	margin-left:0px;
 	position: absolute;
-width: 100%;
+width: 375px;
 height: 812px;
-overflow:hidden;
+background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
 }
-.btn1{
-	position: absolute;
-width: 48px;
-height: 48px;
-left: 155px;
-top: 650px;
-
-background: linear-gradient(125.58deg, #BAFB67 -5.37%, #00D23A 196.64%);
-border-radius: 50%;
-}
-.ellipse1_1{
-	position: absolute;
-left: -5.6%;
-right: 85.4%;
-top: 4.93%;
-bottom: 85.84%;
-
-background: linear-gradient(147.47deg, #FEB665 24.48%, #F66EB4 118.65%);
-border-radius: 50%;
-}
-.ellipse1_2{
-	position: absolute;
-left: 71.2%;
-right: 9.35%;
-top: 20.42%;
-bottom: 70.62%;
-border-radius: 50%;
-background: linear-gradient(228.76deg, #2DEEF9 -34.42%, #E084F1 127.18%);
-transform: rotate(-15.82deg);
-}
-.ellipse1_3{
-	position: absolute;
+.circle{
+ padding: "5px";
+ border-radius: 50%;
+ position: absolute;
 width: 212px;
 height: 212px;
-left: 75px;
+left: 82px;
 top: 197px;
-border-radius: 50%;
+
 background: linear-gradient(73.12deg, #25CED1 -19.51%, #34E6E9 58.02%, #6AFCFF 138%);
-}
-.book{
-	position: absolute;
-width: 88px;
-height: 88px;
-margin-left: 29%;
-margin-top: 30%;
-}
-.text1_1{
-	position: absolute;
-left: 0%;
-right: 0%;
-margin-top: 115%;
-
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 32px;
-line-height: 44px;
-text-align: center;
-
-color: #384F7D;
-}
-.text1_2{
-	position: absolute;
-left: 0%;
-right: 0%;
-top: 60.59%;
-bottom: 33.99%;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 22px;
-/* or 157% */
-
-text-align: center;
-
-color: rgba(56, 79, 125, 0.8);
-}
-
-.go{
-	position: absolute;
-margin-left: 29%;
-margin-top: 30%;
-
-transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-.ellipse1_4{
-	position: absolute;
-left: -22.17%;
-right: 49.89%;
-top: 91.31%;
-bottom: -24.69%;
-
-background: linear-gradient(228.76deg, rgba(45, 238, 249, 0.15) -34.42%, rgba(224, 132, 241, 0.15) 127.18%);
-
-border-radius: 50%;
-}
-/*END1*/
-/**/
-/*Screen2*/
-.ellipse2_1{
-position: absolute;
-width: 299px;
-height: 299px;
-left: -57px;
-top: -139px;
-border-radius: 50%;
-background: linear-gradient(315deg, rgba(255, 255, 255, 0.61) 3.5%, rgba(121, 171, 252, 0.61) 93.61%, rgba(96, 108, 255, 0.61) 147.83%);
-}
-
-.ellipse2_2{
-	position: absolute;
-left: 33.33%;
-right: 30.2%;
-top: 8.25%;
-bottom: 75%;
-
-background: linear-gradient(147.47deg, #FEB665 24.48%, #F66EB4 118.65%);
-border-radius: 50%;
-}
-.lamp{
-	position: absolute;
-margin-left: 24%;
-margin-top: 25%;
-}
-.btn2{
-position: absolute;
-left: 7%;
-top: 85%;
-bottom: 10%;
-width: 315px;
-height:56px;
-background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
-border-radius: 8px;
-}
-.btn2_name{
-	font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 19px;
-text-align: center;
-letter-spacing: 2px;
-text-transform: uppercase;
-
-color: #FFFFFF;
-}
-.text2_1{
-	position: absolute;
-left: 0%;
-right: 0%;
-top: 29%;
-bottom: 0%;
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 32px;
-line-height: 44px;
-text-align: center;
-color: #384F7D;
-}
-.text2_2{
-	position: absolute;
-left: 0%;
-right: 0%;
-top: 34.48%;
-bottom: 60.1%;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 22px;
-/* or 157% */
-
-text-align: center;
-
-color: rgba(56, 79, 125, 0.8);
-}
-
-.input2_1name{
-	position: absolute;
-margin-left: 8%;
-margin-top: 95%;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 1px;
-text-transform: uppercase;
-color: rgba(68, 89, 132, 0.3);
-}
-.input2_1{
-	position: absolute;
-margin-left: 7%;
-margin-top: 100%;
-width:315px;
-height:48px;
-background: #FFFFFF;
-border-radius: 8px;
-font-size:20px;
-font-family: Open Sans;
- z-index: 2;
-}
-.check1{
-	position: absolute;
-margin-left: 8%;
-margin-top: 113%;
-
-width:311px;
-height:4px;
-z-index: 3;
-}
-
-
-.input2_2name{
-	position: absolute;
-margin-left: 8%;
-margin-top: 120%;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 1px;
-text-transform: uppercase;
-color: rgba(68, 89, 132, 0.3);
-}
-.input2_2{
-	position: absolute;
-margin-left: 7%;
-margin-top: 125%;
-width:315px;
-height:48px;
-background: #FFFFFF;
-border-radius: 8px;
-font-size:20px;
-font-family: Open Sans;
-}
-.check2{
-	position: absolute;
-margin-left: 8%;
-margin-top: 138%;
-
-width:311px;
-height:4px;
-}
-
-.input2_3name{
-	position: absolute;
-margin-left: 8%;
-margin-top: 145%;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 1px;
-text-transform: uppercase;
-color: rgba(68, 89, 132, 0.3);
-}
-.input2_3{
-	position: absolute;
-margin-left: 7%;
-margin-top: 150%;
-width:150px;
-height:48px;
-background: #FFFFFF;
-border-radius: 8px;
-font-size:20px;
-font-family: Open Sans;
-}
-
-.input2_4name{
-	position: absolute;
-margin-left: 52%;
-margin-top: 145%;
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 1px;
-text-transform: uppercase;
-color: rgba(68, 89, 132, 0.3);
-}
-.input2_4{
-	position: absolute;
-margin-left: 52%;
-margin-top: 150%;
-width:150px;
-height:48px;
-background: #FFFFFF;
-border-radius: 8px;
-font-size:20px;
-font-family: Open Sans;
-}
-.ellipse2_3{
-	position: absolute;
-left: 78.13%;
-right: 7.03%;
-top: 43.62%;
-bottom: 49.53%;
-border-radius:50%;
-
-background: linear-gradient(228.76deg, #2DEEF9 -34.42%, #E084F1 127.18%);
-transform: rotate(-15.82deg);
-}
-/*END2*/
-
+ }
+ 
  @media (min-width: 425px) {
-	
 	 .form{
 	position: absolute;
-	
 width: 375px;
 height: 812px;
 margin-left:37%;
 background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
 }
+.true_circle{
+ padding: "5px";
+border-radius: 50%;
+ position: absolute;
+width: 212px;
+height: 212px;
+left: 82px;
+top: 197px;
+display: block;
+background:  linear-gradient(73.12deg, #25CED1 -19.51%, #34E6E9 58.02%, #6AFCFF 138%);;
+ }
+ .false_circle{
+ padding: "5px";
+border-radius: 50%;
+ position: absolute;
+width: 212px;
+height: 212px;
+left: 82px;
+top: 197px;
+display: none;
+background:  linear-gradient(73.12deg, #25CED1 -19.51%, #34E6E9 58.02%, #6AFCFF 138%);;
+ }
+ .vector{
+	 position: absolute;
+left: 30%;
+right: -20.83%;
+top: 20.83%;
+bottom: 20.83%;
 
-.bottom_text2{
-	position: absolute;
-margin-left: 17%;
-margin-top: 205%;
+border: 2px solid #FFFFFF;
+transform: matrix(-1, 0, 0, 1, 0, 1);
+ }
+ .truename_input{
+	 position: absolute;
 
-font-family: Open Sans;
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 22px;
-/* identical to box height */
+width: "80%";
+top: 40%;
+left: 10%;
+visibility:visible;
+background: #FFFFFF;
+border-radius: 8px;
+ }
+ .falsename_input{
+	 position: absolute;
+visibility:hidden;
+ }
+  .trueusername_input{
+	 position: absolute;
 
-text-align: center;
+width: "80%";
+top: 45%;
+left: 10%;
+visibility:visible;
+background: #FFFFFF;
+border-radius: 8px;
+ }
+ .falseusername_input{
+	 position: absolute;
+visibility:hidden;
+ }
+   .truecountry_input{
+	 position: absolute;
 
-color: #445984;
-}
+width: "80%";
+top: 50%;
+left: 10%;
+visibility:visible;
+background: #FFFFFF;
+border-radius: 8px;
+ }
+ .falsecountry_input{
+	 position: absolute;
+visibility:hidden;
+ }
  
+  .trueage_input{
+	 position: absolute;
+
+width: "80%";
+top: 55%;
+left: 10%;
+visibility:visible;
+background: #FFFFFF;
+border-radius: 8px;
+ }
+ .falseage_input{
+	 position: absolute;
+visibility:hidden;
+ }
+ 
+.truebtn_1{
+	 position: absolute;
+width: 48px;
+height: 48px;
+left: 164px;
+top: 650px;
+background: linear-gradient(125.58deg, #BAFB67 -5.37%, #00D23A 196.64%);
+border-radius: 50%;
+ }
+ .falsebtn_1{
+	 position: absolute;
+display: none;
+ }
+ 
+ .truebtn_2{
+	 position: absolute;
+width: 200px;
+height: 48px;
+left: 10%;
+top: 650px;
+background: linear-gradient(125.58deg, #BAFB67 -5.37%, #00D23A 196.64%);
+border-radius: 8px;
+ }
+ .falsebtn_2{
+	 position: absolute;
+display: none;
+ }
  }
