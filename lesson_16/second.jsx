@@ -29,55 +29,79 @@ export default class Second extends React.Component{
 	}
 	nameChange(){
 	
-		if(event.target.value.length>2)
-		this.setState({
-			name: event.target.value,
-			user_input:false,
-			check_name: 'lime'
-		});
+		if(event.target.value.length>2){
+			this.setState({
+				name: event.target.value,
+				user_input:false,
+				check_name: 'lime'
+			});
+		}
+		else
+		{
+			this.setState({
+				user_input:true,
+				check_name: 'red'
+			});
+		}
 	}
 	usernameChange(){
-		this.setState({username:''});
-		if(event.target.value.length>2)
-		this.setState({
-			username: event.target.value,
-			country_input:false,
-			check_username: 'lime'
-		});
+		if(event.target.value.length>2){
+			this.setState({
+				username: event.target.value,
+				country_input:false,
+				check_username: 'lime'
+			});
+		}
+		else
+		{
+			this.setState({
+				country_input:true,
+				check_username: 'red'
+			});
+		}
 	}
 	countryChange(){
-
-		this.setState({
-			country: event.target.value,
-			age_input:false
-		});
+		if(event.target.value.length>2){
+			this.setState({
+				country: event.target.value,
+				age_input:false
+			});
+		}
+		else{
+			this.setState({
+				age_input:true
+			});
+		}
 	}
 	ageChange(){
-		
-		this.setState({
-			age: event.target.value,
-			btn_enable:false
-		});
+		if(event.target.value.length>0){
+			this.setState({
+				age: event.target.value,
+				btn_enable:false
+			});
+		}
+		else
+		{
+			this.setState({
+				btn_enable:true
+			});
+		}
 	}
 
   Click(){
 	  fetch('https://authserver.worldthirteen.now.sh/check_username?username='+this.state.username)
 					.then(data=>data.json())
 					.then(data=>{
-						if(data.status==='OK'){
-							this.props.nextStep('registration2');
-						}
-						
-							if(data.status==="CONFLICT"){
-								this.setState=({
+						console.log(data);
+						if(data.status!=='OK'){
+							this.setState=({
 									check_username: 'red'
 								});
+						}
+							else{
+								this.props.nextStep('registration2');
 							}
 					})
-		
-		
-			
-	  
   }
 
   render() {
